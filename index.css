@@ -331,9 +331,16 @@ input::-webkit-inner-spin-button {
     margin-top: 1rem;
     color: #D6E6FE;
     background-color: #5E6E85;
+    color: #D6E6FE;
     text-transform: uppercase;
     font-weight: bolder;
     border: solid white 1px;
     border-radius: 2rem;
     letter-spacing: 0.05rem;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+#submit-container > button:hover {
+    color: white;
+    background-color: #7d93b3;
 }
